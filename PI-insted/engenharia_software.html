@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda sobre Engenharia de Software, seus processos de desenvolvimento, e as principais áreas dessa disciplina.">
+    <meta name="keywords" content="Engenharia de Software, Processos de Desenvolvimento, Métodos Ágeis, Arquitetura de Software, Qualidade de Software">
+    <meta name="author" content="Seu Nome">
+    <title>Engenharia de Software</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #ff6f61;
+            --tertiary-color: #00c853;
+            --highlight-color: #ff8c00;
+            --background-gradient: linear-gradient(120deg, #e0eafc, #cfdef3);
+            --box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            --text-color: #333;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: var(--background-gradient);
+            color: var(--text-color);
+        }
+
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: slideDown 1s ease;
+        }
+
+        main {
+            padding: 2rem 1rem;
+            max-width: 960px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+            background: #fff;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        section h2::before {
+            content: "💻";
+            font-size: 1.5rem;
+            position: absolute;
+            left: -2rem;
+            top: 0.2rem;
+        }
+
+        ul {
+            padding-left: 2rem;
+        }
+
+        ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        ul li strong {
+            color: var(--highlight-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--secondary-color);
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.8rem 1.5rem;
+            text-align: center;
+            background-color: var(--tertiary-color);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: var(--transition);
+            box-shadow: var(--box-shadow);
+            margin-top: 1rem;
+        }
+
+        .back-button:hover {
+            background-color: #00a34d;
+            transform: scale(1.05);
+        }
+
+        .back-button .arrow {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: var(--box-shadow);
+        }
+
+        footer p {
+            font-size: 1.2rem;
+            margin: 0;
+            animation: fadeIn 1.2s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            section h2 {
+                font-size: 1.8rem;
+            }
+
+            .back-button {
+                font-size: 1rem;
+                padding: 0.7rem 1rem;
+            }
+
+            footer p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Engenharia de Software</h1>
+    </header>
+    <main>
+        <section>
+            <h2>O que é Engenharia de Software?</h2>
+            <p>
+                A Engenharia de Software é uma disciplina da computação que se concentra no design, desenvolvimento, teste e manutenção de sistemas de software. Ela busca aplicar princípios de engenharia para criar soluções robustas e eficientes para problemas complexos.
+            </p>
+        </section>
+        <section>
+            <h2>Processos de Desenvolvimento de Software</h2>
+            <ul>
+                <li><strong>Modelo Cascata:</strong> Um processo sequencial onde cada fase deve ser concluída antes de passar para a próxima.</li>
+                <li><strong>Metodologias Ágeis:</strong> Metodologias como Scrum e Kanban que priorizam a flexibilidade, colaboração e entregas frequentes.</li>
+                <li><strong>Desenvolvimento Orientado a Testes (TDD):</strong> Estratégia que envolve escrever testes antes de escrever o código funcional.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Principais Áreas de Engenharia de Software</h2>
+            <ul>
+                <li><strong>Arquitetura de Software:</strong> Planejamento e definição da estrutura do sistema.</li>
+                <li><strong>Gestão de Projetos de Software:</strong> Planejamento, execução e controle de projetos para garantir o sucesso do desenvolvimento.</li>
+                <li><strong>Qualidade de Software:</strong> Processos para garantir que o software seja confiável, eficiente e atenda aos requisitos do cliente.</li>
+            </ul>
+        </section>
+        <a href="index.html" class="back-button">
+            <span class="arrow">&#8592;</span> Voltar para a Página Inicial
+        </a>
+    </main>
+    <footer>
+        <p>Explore o universo da Engenharia de Software e crie sistemas robustos e eficientes!</p>
+    </footer>
+</body>
+</html>

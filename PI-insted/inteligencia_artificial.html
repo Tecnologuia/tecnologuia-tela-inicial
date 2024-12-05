@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra o que é Inteligência Artificial, seus tipos, algoritmos e como ela molda o futuro da tecnologia.">
+    <meta name="keywords" content="Inteligência Artificial, IA, Machine Learning, Redes Neurais, Visão Computacional, NLP">
+    <meta name="author" content="Seu Nome">
+    <title>Inteligência Artificial</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #ff6f61;
+            --tertiary-color: #00c853;
+            --highlight-color: #ff8c00;
+            --background-gradient: linear-gradient(120deg, #e0eafc, #cfdef3);
+            --box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            --text-color: #333;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: var(--background-gradient);
+            color: var(--text-color);
+        }
+
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: slideDown 1s ease;
+        }
+
+        main {
+            padding: 2rem 1rem;
+            max-width: 960px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+            background: #fff;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        section h2::before {
+            content: "🤖";
+            font-size: 1.5rem;
+            position: absolute;
+            left: -2rem;
+            top: 0.2rem;
+        }
+
+        ul {
+            padding-left: 2rem;
+        }
+
+        ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        ul li strong {
+            color: var(--highlight-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--secondary-color);
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.8rem 1.5rem;
+            text-align: center;
+            background-color: var(--tertiary-color);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: var(--transition);
+            box-shadow: var(--box-shadow);
+            margin-top: 1rem;
+        }
+
+        .back-button:hover {
+            background-color: #00a34d;
+            transform: scale(1.05);
+        }
+
+        .back-button .arrow {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: var(--box-shadow);
+        }
+
+        footer p {
+            font-size: 1.2rem;
+            margin: 0;
+            animation: fadeIn 1.2s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            section h2 {
+                font-size: 1.8rem;
+            }
+
+            .back-button {
+                font-size: 1rem;
+                padding: 0.7rem 1rem;
+            }
+
+            footer p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inteligência Artificial</h1>
+    </header>
+    <main>
+        <section>
+            <h2>O que é Inteligência Artificial?</h2>
+            <p>
+                Inteligência Artificial (IA) é uma área da ciência da computação que desenvolve sistemas capazes de realizar tarefas que normalmente requerem inteligência humana, como aprendizado, raciocínio, reconhecimento de padrões e tomada de decisão.
+            </p>
+        </section>
+        <section>
+            <h2>Principais Tipos de Inteligência Artificial</h2>
+            <ul>
+                <li><strong>IA Estreita:</strong> Focada em uma tarefa específica, como assistentes virtuais ou sistemas de recomendação.</li>
+                <li><strong>IA Geral:</strong> Capaz de realizar qualquer tarefa intelectual que um humano possa realizar (ainda em desenvolvimento).</li>
+                <li><strong>IA Superinteligente:</strong> Uma inteligência que supera a humana (hipotética e tema de pesquisa).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Algoritmos e Técnicas de IA</h2>
+            <ul>
+                <li><strong>Machine Learning:</strong> Aprendizado de máquina para encontrar padrões em dados.</li>
+                <li><strong>Redes Neurais:</strong> Modelos inspirados no cérebro humano, usados em reconhecimento de voz e imagens.</li>
+                <li><strong>Processamento de Linguagem Natural:</strong> Entendimento de texto e fala humana.</li>
+                <li><strong>Visão Computacional:</strong> Análise e compreensão de imagens e vídeos.</li>
+            </ul>
+        </section>
+        <a href="index.html" class="back-button">
+            <span class="arrow">&#8592;</span> Voltar para a Página Inicial
+        </a>
+    </main>
+    <footer>
+        <p>Explore o universo da Inteligência Artificial e crie o futuro!</p>
+    </footer>
+</body>
+</html>
